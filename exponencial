@@ -1,0 +1,15 @@
+Proceso exponente
+
+	Escribir "escriba el numero al que le quiera sacar el exponentecial"
+	Leer num
+	Escribir  "escribir el numero al que lo quiere elevar"
+	leer num1
+	i<-0
+	sec<-1
+	Mientras i<num1 Hacer
+		sec<-sec*num
+		i<-i+1
+	Fin Mientras
+	Escribir sec
+	
+FinProceso

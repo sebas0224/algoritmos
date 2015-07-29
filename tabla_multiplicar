@@ -1,0 +1,13 @@
+Proceso tabla_dos
+	Escribir "ingrese el numero de la tabla de multiplicar que quiere saber"
+	leer num
+	escribir "ingrese hasta donde quiere saber la tabla de multiplicar"
+	leer num1
+	sec<-0
+	
+	Para i<-1 Hasta num1 Con Paso 1 Hacer
+		sec<-sec+num
+		Escribir num "*" i "=" sec
+	Fin Para
+	
+FinProceso

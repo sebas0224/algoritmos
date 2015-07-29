@@ -1,0 +1,21 @@
+Proceso numero_primo
+	cont<-0
+	
+	Escribir "escriba el numero para saber si es primo"
+	leer num
+	
+	Para i<-1 Hasta num Con Paso 1 Hacer
+		
+		si num %i ==0 Entonces
+			cont<-cont+1
+		Fin Si
+	
+	Fin Para
+	
+	Si cont==2 Entonces
+		Escribir "el numero es primo"
+	Sino
+		Escribir "el numero no es primo"
+	Fin Si
+	
+FinProceso
